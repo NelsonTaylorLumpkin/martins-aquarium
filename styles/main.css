@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    justify-content: center;
+    background-color: indigo;
+    color: aquamarine;
+    font-family:fantasy;
+    text-align: center;
+}
+h2 {
+    color:indigo;
+    background-color: gold;
+    font-family:fantasy;
+}
+div.careTips {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    border: groove;
+    background-color: gold;
+    text-align: center;
+}
+div.travelTips {
+    display: flex;
+    justify-content: center;
+}
+div.locations {
+    display: flex;
+    justify-content: center;
+}
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fishcard {
+    display: flex;
+    justify-content: space-between;
+}
