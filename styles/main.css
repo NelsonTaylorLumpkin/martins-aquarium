@@ -1,39 +1,128 @@
+/* Global styles */
+
 body {
-    background-color: aquamarine;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header styles */
+
+.pageHeader {
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styles */
+
 h1 {
-    justify-content: center;
-    background-color: indigo;
-    color: aquamarine;
-    font-family:fantasy;
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
     text-align: center;
 }
-h2 {
-    color:indigo;
-    background-color: gold;
-    font-family:fantasy;
-}
-div.careTips {
-    display: flex;
-    justify-content: center;
-    font-family: fantasy;
-    border: groove;
-    background-color: gold;
-    text-align: center;
-}
-div.travelTips {
-    display: flex;
-    justify-content: center;
-}
-div.locations {
-    display: flex;
-    justify-content: center;
-}
+
 .fishList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
 }
+
 .fishcard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 300px;
+}
+
+.fishcard img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.fishcard h3 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.fishcard p {
+    color: #333;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.careTips {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.careTips h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.careTips ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.careTips li {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.locations {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.locations h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.travelTips {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.travelTips h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
